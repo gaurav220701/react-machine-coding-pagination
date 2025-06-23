@@ -1,0 +1,27 @@
+.App {
+  font-family: sans-serif;
+}
+.products {
+  display: flex;
+  flex-wrap: wrap;
+}
+.cards {
+  height: 100px;
+  width: 100px;
+  border: 1px solid black;
+  margin: 5px;
+}
+.btn_pagination {
+  margin: 5px;
+  padding: 5px;
+  display: flex;
+}
+.btns_each {
+  padding: 2px;
+}
+.btns {
+  cursor: pointer;
+}
+.active {
+  background-color: red;
+}
